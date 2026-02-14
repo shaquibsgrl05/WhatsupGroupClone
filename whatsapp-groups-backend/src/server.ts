@@ -9,7 +9,15 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: true, credentials: true }));
+app.use(
+  cors({
+    origin: [
+      "https://whatsupgroupclone3-52ah1hub1-shaquibsgrls-projects.vercel.app",
+    ],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
