@@ -14,11 +14,19 @@ This project includes:
 Frontend:
 `https://whatsupgroupclone3-7gbp3ghks-shaquibsgrls-projects.vercel.app/groups`
 
+🔗 [Frontend](https://whatsupgroupclone3-7gbp3ghks-shaquibsgrls-projects.vercel.app/groups)  
+
 Backend:
 `https://whatsupgroupclone5-kwivt13du-shaquibsgrls-projects.vercel.app/`
 
+🔗 [Backend API](https://whatsupgroupclone5-kwivt13du-shaquibsgrls-projects.vercel.app/)
+
 Backend Groups json Data :
 `https://whatsupgroupclone5-kwivt13du-shaquibsgrls-projects.vercel.app/groups`
+
+🔗 [Backend Groups Data](https://whatsupgroupclone5-kwivt13du-shaquibsgrls-projects.vercel.app/groups)
+
+
 
 
 ` 🧱 Tech Stack
@@ -57,21 +65,28 @@ Modern SaaS layout
 Tailwind-based styling
 Reusable components`
 
-`whatsupgroupclone/
- ├── frontend/
- │     ├── app/
- │     ├── components/
- │     ├── services/
- │     ├── types/
- │     └── ...
- │
- ├── backend/
- │     ├── controllers/
- │     ├── routes/
- │     ├── services/
- │     ├── index.ts
- │     └── ...
-`
+```
+whatsappgroupclone/
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   ├── types/
+│   │   ├── config/
+│   │   └── server.ts
+│   └── api/
+│       └── index.ts
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── services/
+│   ├── types/
+│   └── ...
+```
 
 
 `🛠️ Running the Project Locally
