@@ -21,4 +21,4 @@ app.use("/api/groups", groupRoutes)
 
 app.use(errorHandler)
 
-export const handler = serverless(app)
+export default app;
