@@ -12,10 +12,6 @@ const app = express();
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 
-app.options("*", (req, res) => {
-  res.sendStatus(200);
-});
-
 app.get("/", (req, res) => {
   res.send("Backend is running");
 });
