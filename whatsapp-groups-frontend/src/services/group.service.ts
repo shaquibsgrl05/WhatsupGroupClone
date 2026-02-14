@@ -2,7 +2,7 @@ import axios from "axios"
 import { Group } from "../types/group.types"
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
@@ -11,12 +11,6 @@ const API = axios.create({
 /**
  * GET ALL GROUPS
  */
-// export const getGroups = async (): Promise<Group[]> => {
-//   const res = await API.get("/groups")
-
-//   // Backend returns { success, count, data }
-//   return res.data.data
-// }
 export const getGroups = async (): Promise<Group[]> => {
   const res = await API.get("/groups")
 
