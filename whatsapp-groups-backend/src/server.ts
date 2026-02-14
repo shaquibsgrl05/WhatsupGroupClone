@@ -1,7 +1,7 @@
 import express from "express"
 import cors from "cors"
 import dotenv from "dotenv"
-import serverless from "serverless-http"
+// import serverless from "serverless-http"
 
 import groupRoutes from "./routes/group.routes"
 import { errorHandler } from "./middleware/error.middleware"
