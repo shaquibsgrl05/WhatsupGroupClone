@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test":"jest"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Shaquib",
@@ -17,7 +17,8 @@
     "@supabase/supabase-js": "^2.95.3",
     "cors": "^2.8.6",
     "dotenv": "^17.2.4",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
